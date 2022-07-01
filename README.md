@@ -1,8 +1,8 @@
 # BIST-master-python-bootcamp
 
-Contents for the scientific python bootcamp of the BIST master of Multidisciplinary Research in Experimental Sciences (2021 course).
+Contents for the scientific python bootcamp of the BIST master of Multidisciplinary Research in Experimental Sciences (2022 course).
 
-The contents of this year's bootcamp are designed based on [2020](https://github.com/germannp/BIST-Python-Bootcamp) and [2019](https://github.com/BorjaRequena/BIST-master-python-bootcamp) editions.
+The contents of this year's bootcamp are designed based on [2021](https://github.com/MMRES-PyBootcamp/MMRES-python-bootcamp2021), [2020](https://github.com/germannp/BIST-Python-Bootcamp), and [2019](https://github.com/BorjaRequena/BIST-master-python-bootcamp) editions.
 
 Suggested Installation
 ----------------------
@@ -13,10 +13,10 @@ Suggested Installation
 Timetable
 ---------
 
-|              |  Sept. 20rd    | Sept. 22th     | Sept. 27th     | Sept. 29th     |   Oct. 4th     |  Oct. 6th      |
-|--------------|----------------|----------------|----------------|----------------|----------------|----------------|
-| 10:00-11:00  | Set up & intro | Numpy          | Matplotlib     |ODE Integration |  Scipy stats   |   Final Projects  |
-| 11:00-12:00  | Basics & flow  | Pandas         | Seaborn        |  Optimization  |  Plotting stats| Final Projects  |
+|              |  Sept. 19th    | Sept. 20th     | Sept. 21st     | Oct. 3rd            |   Oct. 4th     |  Oct. 6th      |
+|--------------|----------------|----------------|----------------|---------------------|----------------|----------------|
+| 15:00-16:00  | Set up & intro | Numpy          | Matplotlib     | Group Work revision |  Scipy stats   |   Group Work revision  |
+| 17:00-18:00  | Basics & flow  | Pandas         | Seaborn        |  Hypothesis testing |  Plotting stats|   Q&A Extra material   |
 
 Online Resources
 ----------------
