@@ -2,44 +2,36 @@
   
 Welcome to the BIST Python Bootcamp! So, what do we hope to achieve? We aim to provide you with the extremely powerful tool of programming languages for data analysis without any previous experience requirements.  
 
-Programming languages allow us to analyse much larger datasets with a broader toolkit in terms of numerical analysis and data visualisation that what we obtain with spreadsheets like Microsoft Excel or Google Sheets. For those who are not familiar either with programming or python, even though it may be slower at the beginning, as we become more proficient in with it, it is much easier and faster to work with data this way. Hopefully, by the end of this bootcamp, you will have a firm grasp of programming in Python, with a clear idea of how to use it for data analysis and visualisation. Going forward, you should have a strong grounding in programming and might wish to develop skills in data mining or computational modelling - useful skills for science and other careers. 
+Programming languages allow us to analyse much larger datasets with a broader toolkit in terms of numerical analysis and data visualisation that what we obtain with spreadsheets like Microsoft Excel or Google Sheets. For those who are not familiar either with programming or Python, even though it may be slower at the beginning, as we become more proficient in with it, it is much easier and faster to work with data this way. Hopefully, by the end of this bootcamp, you will have a firm grasp of programming in Python, with a clear idea of how to use it for data analysis and visualisation. Going forward, you should have a strong grounding in programming and might wish to develop skills in data mining or computational modelling - useful skills for science and other careers. 
 
 Beyond providing you with specific Python knowledge, we also aim to teach you good programming practices, like version control. This will include setting up a [GitHub](https://github.com/) account, as described in the last section. We will cover this throughout the course, though you are more than welcome to try it out before hand and download the course's contents before we start. 
 
 Before the bootcamp, it will be very helpful if you could install [Python 3](https://www.python.org/download/releases/3.0/) on your computer, as described in the section below, which should set you up nicely for the course and hopefully any data analysis you need to do during your Masters. We have some optional resources for those [coming to Python from either Matlab or R](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf), or those who are [new to programming](https://www.codecademy.com/learn/python). For the ones already experienced in Python, you are more than welcome to join and learn some new tricks. Finally, all students are encouraged to work together and help each other!
 
-## Installing Python3 on Your Computer  
+## Installing Python3 on your Computer  
 
 You may already have Python 3 installed on your computer (especially if you have a Mac or Linux distribution). However, we recommend installing [Anaconda Python 3.9](https://www.anaconda.com/distribution/), which nicely supports Windows, Mac and Linux machines and will include the right version of Python with all the scientific packages needed for this bootcamp. If you have problems with the installation and Google is no help, we will do our best to help you in the first session of the bootcamp. 
 
-Now that you have Python installed on your computer, you may want to try it out. The easiest way is to open an Anaconda Prompt terminal and type `python`. This will let you introduce python commands. You may try with:
+Now that you have Python installed on your computer, you may want to try it out. The easiest way is to open an Anaconda Prompt terminal and type `python`. This will let you introduce Python commands. You may try with:
 
 + `2+2`
 + `print('Hello, world!')`
 + `import numpy`
 
-If you got no errors, you are more than ready to start the bootcamp! If you got any error, fear not, we will cover it in the first session of the bootcamp. Now to exit the python mode, you can type `exit()` and hit enter. 
+If you got no errors, you are almost ready to start the bootcamp! If you got any error, fear not, we will cover it in the first session of the bootcamp. Now to exit the Python mode, you can type `exit()` and hit enter. 
 
-## Git
+## Installing Git on your Computer
 
-TODO Write a couple of lines to introduce how to install [Git in Windows](https://gitforwindows.org/). I think this not applies for Linux and Mac.
+Git is a version control software that allows us to keep track of the history of our code, data, and documents. Using Git is extremely helpful even when working alone and it becomes essential to collaborate with a team on a common project (your bootcamp teachers created all the contents of the course by collaborating on a [GitHub repository](https://github.com/MMRES-PyBootcamp/MMRES-python-bootcamp2022).). So we strongly encourage you to [sign up for GitHub](https://github.com/signup?user_email=&source=form-home-signup) and start getting used to Git just from now!
 
-Git is a version control software that allows us to keep track of the history of our code, data, and documents. This becomes essential when working with a team on a common project, but it is also extremely helpful even when working alone. To download the course materials run `$ git clone https://github.com/MMRES-PyBootcamp/MMRES-python-bootcamp2022`. After downloading the repositories, try typing `$ cd MMRES-python-bootcamp2022/` to change directory and access the repositories you just cloned.
+**Read this if you are Windows User**: Usually, Windows PCs don't have Git by default and you need to install [Git for Windows](https://gitforwindows.org/).
 
-If you don't feel confident enough to work with the Git command line, there is software like [GitKraken](https://www.gitkraken.com/) or [GitHub Desktop](https://desktop.github.com/) providing visual interface that allows us to manage our git repositories without the command line (you can start using Git with the visual interface, and as you get more comfortable, gradually switch to the command line). In any case, the visual interface comes specially handy to deal with git conflicts.
+To download the course materials, open a Git Bash command line and run `$ git clone https://github.com/MMRES-PyBootcamp/MMRES-python-bootcamp2022`. This command would download the MMRES-python-bootcamp2022 repository from GitHub with all the contents we will need along the bootcamp.
 
-### Remote Repositories
-Our local git repositories are connected to a remote repository, e.g. the one you cloned. Remote repositories are often hosted by providers like [GitHub](https://github.com) or [GitLab](https://gitlab.com), which provide a graphical interface and further functionality for collaboration, such as an issue tracker or a wiki. We will download updates using `$ git pull` and upload your changes using `$ git push`.
+If you don't feel confident enough to work with the Git command line, there is software like [GitKraken](https://www.gitkraken.com/) or [GitHub Desktop](https://desktop.github.com/) providing visual interface that allows us to manage our Git repositories without typing commands (you can start using Git with the visual interface and, as you get more comfortable, gradually switch to the command line).
 
-### Versioning
-We can view our changes to tracked files using `$ git diff` and get an overview with `$ git status` (try this command). Then, we can stage changes using `$ git add file-name` or `$ git add -A` to stage them all.  We can create a checkpoint with the staged changes using `$ git commit -m "Commit message"`. This message should be short, in case we want to add more information, we can skip the `-m` and our default text editor will open. To move or delete tracked files we can use `$ git mv` and `$ git rm` respectively. We can see the history with `$ git log` and go back to any point using `$ git checkout #commit-hash`.
+## Stack Overflow
 
-### Stash and Branch
-In case we need to quickly interrupt our current tasks to work on something else, we can save and remove your unstaged changes with `$ git stash` and restore them with `$ git stash apply`. To keep track of several versions of our software, e.g. a stable version and one (for each new feature) under development, we can use [branches](https://git-scm.com/docs/git-branch).
+https://stackoverflow.com/
 
-### Git with Jupyter Notebooks
-Our course uses Jupyter Notebooks, one of the most extended platforms, provided they can store code, plots and markdowns. However, notebooks are notoriously difficult to compare and version given that they, under the hood, are json files that store loads of metadata, such as cell execution counts. The [nbdev](https://nbdev.fast.ai/) library helps us with this. Once we have python, we can install it from the Anaconda Prompt terminal with `$ pip install nbdev`. Then, the steps are: 
-- Go to the github repository that we just downloaded: ~/whatever/path/BIST-master-python-bootcamp 
-- Run `$ nbdev_install_git_hooks` 
-
-nbdev is a library designed to use Jupyter Notebooks as source code for our libraries. In case you want a deeper dive into nbdev, we recommend going through [its tutorial](https://nbdev.fast.ai/tutorial.html) or our [metatutorial](https://borjarequena.github.io/nbdev_metatuto/tutorial/) with extended explanations, screenshots and source code.
+TODO
