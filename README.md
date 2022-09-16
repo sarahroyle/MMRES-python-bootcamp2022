@@ -15,8 +15,8 @@ Timetable
 
 |              |  Sept. 19th    | Sept. 20th     | Sept. 21st     | Oct. 3rd            |   Oct. 4th     |  Oct. 6th      |
 |--------------|----------------|----------------|----------------|---------------------|----------------|----------------|
-| 15:00-16:00  | Set up & intro |  Pandas        | Matplotlib     | Group Work revision |  Numpy         |   Group Work revision  |
-| 16:00-17:00  | Basics & flow  |  Scipy stats (I)| Seaborn       |  Scipy stats (II)   |  intro to Scikit-learn |   Q&A or extra material  |
+| 15:00-16:00  | Set up & Intro (I) | Scipy stats (I) | Pandas (II) | Group Work revision | Numpy | Group Work revision |
+| 16:00-17:00  | Intro (II) | Pandas (I) | Seaborn | Scipy stats (II) | Intro to Scikit-learn | Q&A or extra material |
 
 Online Resources
 ----------------
